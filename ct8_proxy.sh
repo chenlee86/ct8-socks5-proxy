@@ -649,7 +649,7 @@ cat > "$CONNECTION_FILE" << EOF
 
 服务器: $(hostname 2>/dev/null || echo "your-server-hostname")
 端口: $PROXY_PORT
-用户名: wheel-user
+用户名: admin1
 密码: $PASSWORD
 
 # 性能优化特性
@@ -678,7 +678,7 @@ echo ""
 echo -e "${GREEN}🔒 高速隐蔽代理连接信息${NC}"
 echo "服务器: $(hostname 2>/dev/null || echo "your-server-hostname")"
 echo "端口: $PROXY_PORT"
-echo "用户名: wheel-user"
+echo "用户名: admin1"
 echo "密码: $PASSWORD"
 echo ""
 
